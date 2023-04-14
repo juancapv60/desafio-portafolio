@@ -1,6 +1,13 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+nav{
+  background-image:url("https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png") ;
+  background-repeat: repeat;
+  background-size:contain;
+  background-position: left;
+  height: 15vh;
+}
 
 /* Hero Section */
 
