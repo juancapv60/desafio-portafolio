@@ -69,10 +69,7 @@ nav{
   background-position: left;
   
 }
-.img-fluid {
-  height: 5rem;
-  border-radius: 50%;
-}
+
 
 
 
@@ -84,6 +81,10 @@ nav{
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
+  
+}
+.card{
+  border: none;
 }
 
 /* Contacto */
@@ -92,9 +93,24 @@ nav{
   font-weight: 700;
   color: #373a3c;
 }
+
 #Mis-trabajos{
   background-color: #5e22927b;
+  
 }
+.boton{
+  background-color: #dfa4a4;
+  text-decoration: none;
+  
+  
+}
+.boton a{
+  text-decoration:none;
+  color: #fff;
+  
+}
+
+
 
 @media (max-width: 768px) {
   #Contacto form label {
