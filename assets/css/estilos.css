@@ -95,7 +95,17 @@ nav{
 }
 
 #Mis-trabajos{
-  background-color: #5e22927b;
+
+  background: hsla(282, 71%, 76%, 1);
+
+  background: linear-gradient(90deg, hsla(282, 71%, 76%, 1) 0%, hsla(227, 92%, 76%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(282, 71%, 76%, 1) 0%, hsla(227, 92%, 76%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(282, 71%, 76%, 1) 0%, hsla(227, 92%, 76%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D395ED", endColorstr="#89A2FA", GradientType=1 );
+  
   
 }
 .boton{
@@ -110,7 +120,12 @@ nav{
   
 }
 
-
+footer{
+  background-image:url("https://images.pexels.com/photos/9665178/pexels-photo-9665178.jpeg?cs=srgb&dl=pexels-cottonbro-studio-9665178.jpg&fm=jpg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: left; 
+}
 
 @media (max-width: 768px) {
   #Contacto form label {
